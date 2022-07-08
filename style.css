@@ -1,0 +1,139 @@
+
+/* Canvas */
+* {
+    margin:             0;
+    padding:            0;
+    font-family:        'Red Hat Display', sans-serif;
+    box-sizing:         border-box;
+}
+body {
+    background-color: #ececec; 
+}
+hr {
+    margin-block:       1%;
+    margin-inline:      15%;
+    color:             #1a88d1;
+}
+
+/* Header */
+#header {
+    background-color:  #1a88d1;
+    color:             #ececec;
+    position:           fixed;
+    width:              100%;
+    height:             100px;
+    padding-block:      2rem;
+    padding-right:      10%;
+    padding-left:       5%;
+    box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+#header nav {
+    display:            flex;
+    align-items:        center;
+}
+#header nav h1 {
+    font-size:          33px;
+}
+#header nav ul {
+    flex:               1;
+    text-align:         right;
+}
+#header nav ul li {
+    display:            inline-block;
+    list-style:         none;
+    margin:             0 20px;
+}
+#header nav ul li a {
+    text-decoration:    none;
+    color:             #ececec;
+    font-size:          28px;
+}
+
+
+/* Main */
+#main {
+    display:            flex;
+    flex-direction:     column;
+    padding-block:        6%;
+}
+
+
+/* Biografía */
+#miFoto {
+    margin:             1%;
+    text-align:         center;
+}
+#miFoto img {
+    border-radius:      50%;
+    width:              10%;
+}
+
+#saludo {
+    text-align:         center;
+}
+#saludo h1 {
+    margin:             0.5%;
+    color:             #1a88d1;
+}
+
+#presentacion {
+    padding-inline:     35%;
+    text-align:         justify;
+}
+#presentacion p {
+    font-size:          20px;
+}
+
+#programacion, #idiomas {
+    margin-block:       1%;
+    padding-inline:     20%; 
+    font-size:          25px;
+}
+#programacion ul li, #idiomas ul li {
+    margin-top:         0.8%;
+    list-style:         none;
+    font-size:          22px;
+    padding-inline:     2%;
+}
+
+
+/* Footer */
+#footer {
+
+    background-color: #b8b8b8;
+    width:              100%;
+    height:             110px;
+    margin-bottom:      0; 
+    padding-left:       5%;
+    padding-right:      10%;
+    padding-block:      1%;
+    box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    text-align:         center;
+}
+#footer nav {
+    align-items:        center;
+    display:            flex;
+}
+#footer nav h1 {
+    color:             #5e5e5e;
+    font-size:          11px;
+}
+#footer nav ul {
+    flex:               1;
+    text-align:         center;
+}
+#footer nav ul li {
+    display:            inline-block;
+    list-style:         none;
+}
+#footer nav ul li a {
+    color:             #ececec;
+    text-decoration:    none;
+    font-size:          28px;
+}
+#footer img {
+    width:              4rem;
+    height:             4rem;
+    border-radius:      50%;
+}
